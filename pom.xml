@@ -22,8 +22,10 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<bce.version>1.0.1-SNAPSHOT</bce.version>
 		<java.version>1.8</java.version>
+		<bce.version>1.0.3-SNAPSHOT</bce.version>
+		<report.version>1.0.1-SNAPSHOT</report.version>
+		<configuration.version>1.0.1-SNAPSHOT</configuration.version>
 	</properties>
 
 	<dependencies>
@@ -47,12 +49,12 @@
 		<dependency>
 			<groupId>com.dvsmedeiros</groupId>
 			<artifactId>report-rest</artifactId>
-			<version>${bce.version}</version>
+			<version>${report.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.dvsmedeiros</groupId>
 			<artifactId>configuration-rest</artifactId>
-			<version>${bce.version}</version>
+			<version>${configuration.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
