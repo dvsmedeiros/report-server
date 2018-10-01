@@ -11,6 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class ReportServerApplication {
 
 	public static void main(String[] args) {
+		System.setProperty("spring.devtools.restart.enabled", "false");
 		SpringApplication.run(ReportServerApplication.class, args);
 	}
 }
